@@ -14,3 +14,9 @@ h1{
 	text-align: center;
 	border-radius: 20px;
 }
+
+p, #txt{
+	color: green;
+	background-color: #fff135;
+}
+
