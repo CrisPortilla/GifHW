@@ -21,7 +21,9 @@ var games = ["Super Mario", "Madden", "Mario Kart", "Call of Duty", "Zelda", "Sp
 					for (var i = 0; i < results.length; i++) {
 						
 						var gifDiv = $("<div>");
-				
+					
+						var p = $("<p>").html("Rating: " + results[i].rating);
+
 						var gameGif = $("<img>");
 				
 						gameGif.attr("data-still", results[i].images.fixed_height_still.url);
@@ -38,6 +40,8 @@ var games = ["Super Mario", "Madden", "Mario Kart", "Call of Duty", "Zelda", "Sp
 	                		$(this).attr("src", $(this).attr("data-still"));
 	                		}
 	                	});
+
+						gifDiv.append(p);
 
 						gifDiv.append(gameGif);
 
