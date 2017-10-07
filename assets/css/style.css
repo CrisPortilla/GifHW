@@ -1,0 +1,16 @@
+body {
+	background-image: url('../images/pacman.jpg');
+}
+
+h1{
+	color: #db0606;
+	font-weight: bold;
+	font-family: 'Cinzel', serif;
+}
+
+.btn{
+	background-color: #706767;
+	color: black;
+	text-align: center;
+	border-radius: 20px;
+}
